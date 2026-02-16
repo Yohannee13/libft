@@ -124,6 +124,7 @@ typedef struct s_list
 - [Linux manual page](https://man7.org/linux/man-pages/man1/man.1.html)
 
 ### AI usage
+
 In this project, AI was **never** used to give the answer but:
 
 - To break down the complexity of new notions such as *double pointer*
