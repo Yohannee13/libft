@@ -6,7 +6,7 @@
 /*   By: yoandria <yoandria@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/06 22:22:49 by yoandria          #+#    #+#             */
-/*   Updated: 2026/02/14 17:09:44 by yoandria         ###   ########.fr       */
+/*   Updated: 2026/04/13 13:57:52 by yoandria         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@ t_list	*ft_lstnew(void *content)
 {
 	t_list	*ptr_new_node;
 
-	if (!content)
-		return (NULL);
 	ptr_new_node = (t_list *)malloc(sizeof(t_list));
 	if (!ptr_new_node)
 		return (NULL);
